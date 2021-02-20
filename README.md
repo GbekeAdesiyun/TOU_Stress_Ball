@@ -2,11 +2,11 @@
 ![TOU-logo](https://github.com/GbekeAdesiyun/TOU_Stress_Ball/blob/main/TOU-pic.gif)
 
 ## About
-> We're stuck in a panoramic, whether we like it or not. It's stressful and sometimes depressing and repetitive, but you don't have to face it alone. With the TOU Stress Ball, you can physically show other people that you're here for them, there with them (kinda) and that you care for them, no matter where you are in the world and vice versa. All you need is a WiFi connection.
+* We're stuck in a panoramic, whether we like it or not. It's stressful and sometimes depressing and repetitive, but you don't have to face it alone. With the TOU Stress Ball, you can physically show other people that you're here for them, there with them (kinda) and that you care for them, no matter where you are in the world and vice versa. All you need is a WiFi connection.
 
-> It's also important to show love to yourself and release some of the physical tension that inevitably builds up in a panasonic. That is why this is not just a long-distance device, but also functons as a personal, super-fun and squishy stress ball!
+* It's also important to show love to yourself and release some of the physical tension that inevitably builds up in a panasonic. That is why this is not just a long-distance device, but also functons as a personal, super-fun and squishy stress ball!
 
->  Thinking Of U :)
+* Thinking Of U :)
 > What a wonderful way to show someone that you're on their mind, that you matter to them, that they think of you from time to time. Perfect for friends, family and couples, especially in these trying times.
 
 
