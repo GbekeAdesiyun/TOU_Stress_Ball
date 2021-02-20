@@ -6,7 +6,7 @@
 
 * It's also important to show love to yourself and release some of the physical tension that inevitably builds up in a panasonic. That is why this is not just a long-distance device, but also functons as a personal, super-fun and squishy stress ball!
 
-* Thinking Of U :)
+Thinking Of U :)
 > What a wonderful way to show someone that you're on their mind, that you matter to them, that they think of you from time to time. Perfect for friends, family and couples, especially in these trying times.
 
 
