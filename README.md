@@ -35,4 +35,7 @@ GCP, IoT Core, ESP32 DevKit V1, Thin Film resistive pressure sensors, Balloons, 
 ## Sources
 * https://www.youtube.com/watch?v=bngPdbyh6IM
 * https://randomnerdtutorials.com/esp32-pinout-reference-gpios/
+* https://learn.adafruit.com/force-sensitive-resistor-fsr/using-an-fsr
+* https://ludovic-emo.medium.com/how-to-send-esp32-telemetry-to-google-cloud-iot-core-caf1a952020d
+* https://github.com/GoogleCloudPlatform/google-cloud-iot-arduino
 * 
