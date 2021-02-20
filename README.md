@@ -19,6 +19,7 @@ GCP, IoT Core, ESP32 DevKit V1, Thin Film resistive pressure sensors, Balloons, 
 ## Challenges We Ran Into
 * Firstly, the tools and components we ordered did not arrive (and still haven't arrived :/) despite paying extra for priority shipping. We decided this idea and opportunity was too valuable to give in so we made a rush order from a different platform
 * Connecting the boards to the WiFi was a big pain in the butt at first, especially with trying to configure the boards to connect to the cloud first
+* Some parts that we got were dysfunctional so we had to improvise even more
 
 ## Accomplishments We're Proud Of
 * We refused to give up in the face of not having the parts to actually make a prototype and adapted to the situation
