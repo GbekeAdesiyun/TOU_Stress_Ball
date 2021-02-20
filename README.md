@@ -1,4 +1,5 @@
 # TOU_Stress_Ball
+![TOU-logo](https://github.com/GbekeAdesiyun/TOU_Stress_Ball/blob/main/TOU-pic.gif)
 
 ## About
 > We're stuck in a panoramic, whether we like it or not. It's stressful and sometimes depressing and repetitive, but you don't have to face it alone. With the TOU Stress Ball, you can physically show other people that you're here for them, there with them (kinda) and that you care for them, no matter where you are in the world and vice versa. All you need is a WiFi connection.
