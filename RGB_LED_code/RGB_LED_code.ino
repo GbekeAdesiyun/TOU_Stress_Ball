@@ -6,40 +6,38 @@
 #include <AzureIotHub.h>
 #include <Esp32MQTTClient.h>
 
-
-// for Arduino microcontroller
-//int Led_Red = 10;
-//int Led_Green = 11;
-//int Led_Blue = 9;
-
-// for ESP8266 microcontroller
-//int Led_Red = D3;
-//int Led_Green = D2;
-//int Led_Blue = D4;
-
-// for ESP32 microcontroller
+for ESP32 microcontroller
+int fsrAnalogPin = 23; // FSR is connected to analog 23
+int fsrReading;      // the analog reading from the FSR resistor divider
+int LEDbrightness;
+ 
 int Led_Red = 18;
 int Led_Green = 19;
 int Led_Blue = 21;
  
 
 void setup() {
-  pinMode(Led_Red, OUTPUT); 
+  Serial.begin(9600);   // We'll send debugging information via the Serial monitor
+  pinMode(Led_Red, OUTPUT); //pin with connected to resistor
   pinMode(Led_Green, OUTPUT); 
   pinMode(Led_Blue, OUTPUT); 
+  pinMode(fsrAnalogPin, INPUT);
 }
 void loop() {
-   for(int val = 255; val> 0; val--) {
-      analogWrite (Led_Red, val);
-      analogWrite (Led_Blue, 255-val);
-      analogWrite (Led_Green, 128-val);
-      delay (15);
-   }
+  fsrReading = analogRead(fsrAnalogPin);
+  Serial.print("Analog reading = ");
+  Serial.println(fsrReading);
+ 
+  // we'll need to change the range from the analog reading (0-1023) down to the range
+  // used by analogWrite (0-255) with map!
+  LEDbrightness = map(fsrReading, 0, 1023, 0, 255);
+  // LED gets brighter the harder you press
+  analogWrite (Led_Red, LEDbrightness);
+  //analogWrite (Led_Blue, LEDbrightness);
+  //analogWrite (Led_Green, LEDbrightness);
 
-   for(int val = 0; val <255; val++) {
-      analogWrite (Led_Red, val);
-      analogWrite (Led_Blue, 255-val);
-      analogWrite (Led_Green, 128-val);
-      delay (15);
-   }
+  delay(100);
 }
+
+
+ 
