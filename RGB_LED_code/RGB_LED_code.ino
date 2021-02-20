@@ -1,3 +1,12 @@
+#include <analogWrite.h>
+
+#include <dummy.h>
+#include <HTTPClient.h>
+
+#include <AzureIotHub.h>
+#include <Esp32MQTTClient.h>
+
+
 // for Arduino microcontroller
 //int Led_Red = 10;
 //int Led_Green = 11;
@@ -9,9 +18,9 @@
 //int Led_Blue = D4;
 
 // for ESP32 microcontroller
-int Led_Red = D21;
-int Led_Green = D19;
-int Led_Blue = D18;
+int Led_Red = 18;
+int Led_Green = 19;
+int Led_Blue = 21;
  
 
 void setup() {
